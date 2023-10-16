@@ -25,7 +25,7 @@ jobs:
         repository: ${{ github.repository }}
     # zip the file
     - name: Create Zip Folder
-      run: zip -r EndTraders-ResourcePack-${{ steps.release.outputs.release }}.zip ./data/ pack.mcmeta pack.png
+      run: zip -r EndTraders-ResourcePack-${{ steps.release.outputs.release }}.zip ./assets/ pack.mcmeta pack.png
     # release on github
     - name: Release to github
       uses: xresloader/upload-to-github-release@main
