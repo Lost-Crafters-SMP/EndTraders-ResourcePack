@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/chorus_flower",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "custom:item/0001-end_villager_head"
+    }
+  ]
+}
